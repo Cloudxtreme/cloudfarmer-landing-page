@@ -57,9 +57,6 @@ h1, h2, h3, h4, h5, h6{
   opacity: .5;
 }
 
-/*.header-content {
-
-}*/
 .main-content h4 {
     font-size: 2.25rem;
     color: #394046
@@ -92,13 +89,6 @@ p.privacy {
   margin-top: 20px;
 }
 
-@media (max-width: 991px) {
-    input.submit {
-      margin-top: 13px;
-      width: 100%;
-    }
-}
-
 .btn.sharp {
   border-radius:0;
 }
@@ -107,36 +97,17 @@ p.privacy {
   background: #16C4C1;
 }
 
+.btn-primary:hover {
+  background: #00918e;
+  border: none;
+}
+
 .btn.no-border {
   border: 0 none;
 }
 
-/*.form-inline {
-
-}*/
-
-/*.text-center {
-
-}*/
-
-/*.submit {
-
-}*/
-
-/*.button {
-
-}*/
-
-.form-footer {
-
-}
-
 .footer {
   margin-top: 30px;
-}
-
-.text-center {
-
 }
 
 .social-buttons a {
@@ -162,7 +133,15 @@ a{
   -o-transition: .4s;
   transition: .4s;
 }
+
 a:hover{
   color:#00918e;
   text-decoration: none;
+}
+
+@media (max-width: 991px) {
+    input.submit {
+      margin-top: 13px;
+      width: 100%;
+    }
 }
